@@ -2,7 +2,7 @@
 
 Simply put, this is a shell script (`imx.sh`) that extracts the text of all messages from an iMessage database, and places them in a series of text files organized by telephone number. It works on recent versions of macOS - it has been verified to work on Catalina 10.15.5. There has been no extensive testing to date; this should be considered experimental software. 
 
-### Working with Apple's security
+## Working with Apple's security
 The simplest method to enable `imx.sh` to run is to give the `Terminal.app` Full Disk Access in `System Preferences`.
 
 ## What is the provenance of this code? 
