@@ -17,7 +17,7 @@ Please refer to the Wiki.
 
     - Another way is to simply copy the contents of `imx.sh` to your machine, save it as a file and make it executable using `chmod 755 ./imx.sh`
     
-2. Once you have an executable copy of `imx.sh` `cd` to that folder - e.g. `cd /Users/<yourusername>/MyScripts`: 
+2. Once you have an executable copy of `imx.sh`, `cd` to that folder - e.g. `cd /Users/<yourusername>/MyScripts`: 
 
     ```
     mkdir extract
