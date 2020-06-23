@@ -3,7 +3,7 @@ BACKUP_DIR=./backup
 
 OS_Version=$(sw_vers -productVersion)
 LAST_VERSION=10.13
-NEEDS_MODIFICATION=$(echo $OS_Version '>=' $LAST_VERSION | bc -l)
+NEEDS_MODIFICATION=$(echo ${OS_Version:0:5} '>=' $LAST_VERSION | bc -l)
 BACKUP_ATTACHMENTS=0
 
 while getopts ":a" opt; do
