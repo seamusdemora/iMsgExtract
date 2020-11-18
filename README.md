@@ -9,7 +9,7 @@ The simplest method to enable `imx.sh` to run is to give the `Terminal.app` Full
 
 Please refer to the Wiki. 
 
-## How do I use this? 
+## How do I use this?
 
 1. Copy the script to your local machine - at least two ways to do this: 
 
@@ -53,6 +53,20 @@ Please refer to the Wiki.
     >Name (Me or Friend) | Text of message | date-time stamp
     
     There is a single option available with imx.sh: `imx.sh -a`. This option will extract all media (pictures, sound, video) and files found in the iMessage database. They are organized by "conversation" in the subfolder named `Attachments`.
+
+---
+
+## REFERENCES & RELATED ITEMS 
+
+1. [Analyzing iMessage conversations](https://stmorse.github.io/journal/iMessage.html) : S. Morse's blog re iMessage *group* chats - resources & Python code.  
+2. [Getting Attached: Apple Messaging Attachments](https://linuxsleuthing.blogspot.com/2015/01/getting-attached-apple-messaging.html) : Analysis of chat.db - the SQLite database for iMsg 
+3. [iMessage-Export](https://github.com/aaronpk/iMessage-Export) : PHP scripts to export the iMsg db in HTML or CSV format (but no group msgs) 
+4. [iMessageAnalyzer](https://github.com/dsouzarc/iMessageAnalyzer) : Provides analysis (incl. graphs & charts) of messaging history 
+5. [SQLite Commands useful w/ `chat.db`](https://github.com/dsouzarc/iMessageAnalyzer/blob/master/Random%20SQLite%20Commands.txt) : from the author of iMessageAnalyzer 
+
+
+
+
 
 <!---  BEGIN HIDDEN TEXT
 To use baskup:
