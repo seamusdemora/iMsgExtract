@@ -7,7 +7,7 @@ The simplest method to enable `imx.sh` to run is to give the `Terminal.app` Full
 
 ## What is the provenance of this code? 
 
-Please refer to the Wiki. 
+Please refer to [the Wiki](https://github.com/seamusdemora/iMsgExtract/wiki).  
 
 ## How do I use this?
 
